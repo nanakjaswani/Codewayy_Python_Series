@@ -1,5 +1,5 @@
 #Tuples
-#Tuples are immutable it means they cannot be changed
+#Tuples are immutable it means they cannot be changed.
 
 #creating a Tuple
 Fruits = ('apple' , 'banana' , 'grapes' , 'cherry')
