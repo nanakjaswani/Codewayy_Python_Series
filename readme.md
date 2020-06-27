@@ -33,3 +33,18 @@ call other functions.
 1. while loop
 
 2. for loop
+
+## Task4
+> This task contains two programs
+
+1.one to print all the prime of entered element in matrix
+
+2.second program shows the implementation of modules
+
+There are 3 subprogram which cotains various function
+
+1. **_list_**- prints sq of no , max no, min no, and sum of element
+
+2.**_string_**- prints length of string, vowels in string, and middle element of string
+
+3.**_logicaloperator's_**- shows the use of AND | OR | NOT
