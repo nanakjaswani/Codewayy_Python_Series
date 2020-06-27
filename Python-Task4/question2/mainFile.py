@@ -2,23 +2,35 @@ import task4_list
 import task4_string
 import task4_logical
 
+number = int(input("Enter the no to print sq "))
+task4_list.functionSquare(number)
 
-choice = input ("which program do you  want to run: A) List. B)String. C) Logical. [A/B/C]? :\n ")
 
-if choice == "A":
-    task4_list.functionSquare()
-    task4_list.funMax()
-    task4_list.funMin()
-    task4_list.funSum()
-   
-elif choice == "B":
+inputList = []
+    
+list = int(input("Enter how many no do you wnat to add in list: "))
+for num in range(list):
+    numbers = int(input())
+    inputList.append(numbers)
+print("the list is: ",inputList)
 
-    task4_string.middle_char()
-    task4_string.lengthOfString()
-    task4_string.funVowel()
+#list
+task4_list.funMax(inputList)
+task4_list.funMin(inputList)
+task4_list.funSum(inputList)
 
-elif choice == "B":
+# string
+print("\n")
+inputString = input("Enter the string ")  
+task4_string.middleChar(inputString)
+task4_string.lengthOfString(inputString)
+task4_string.funVowel(inputString)
 
-    task4_logical.logicalAnd()
-    task4_logical.logicalOr()
-    task4_logical.logicalNot()
+print("\n")
+#logical operators
+x = int(input("enter the first number: "))
+y = int(input("enter the second number: "))
+task4_logical.logicalAnd(x,y)
+task4_logical.logicalOr(x,y)
+task4_logical.logicalNot(x,y)
+
