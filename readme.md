@@ -50,11 +50,11 @@ There are 3 subprogram which cotains various function
 3.**_logicaloperator's_**- shows the use of AND | OR | NOT
 
 ## Task5
-> **_This task contain's_**
+ **_This task contain's_**
 
-1. Exception handling (try | catch | raise )
+1.Exception handling (try | catch | raise )
 
-2. sorting function / math function
+2.sorting function / math function
 
 3.Reading the file and print its content
 
