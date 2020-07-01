@@ -48,3 +48,14 @@ There are 3 subprogram which cotains various function
 2.**_string_**- prints length of string, vowels in string, and middle element of string
 
 3.**_logicaloperator's_**- shows the use of AND | OR | NOT
+
+## Task5
+ **_This task contain's_**
+
+1.Exception handling (try | catch | raise )
+
+2.sorting function / math function
+
+3.Reading the file and print its content
+
+4.writing the file
