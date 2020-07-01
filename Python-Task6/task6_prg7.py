@@ -1,21 +1,9 @@
-marks = int(input("Enter the marks "))
-try:
-    marks > 90
-    print("True")
-except IOError:
-    print("Not True")    
-        
-if marks < 90:  
-    raise Exception('your input is less than 90')
+def check_marks(m):
+    if m >= 90:
+        return print(True)
+    elif m < 90:
+        raise Exception("Marks less than 90 ")
 
-            
-        
-
-    
-       
-        
-           
-       
-              
-           
-
+for i in range(0,1):
+    marks = int(input("Enter the marks\n"))
+    check_marks(marks)
